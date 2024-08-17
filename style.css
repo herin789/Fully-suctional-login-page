@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+    font-family: 'Baloo Bhai';font-size: 18px;
+} 
+body 
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f1f1f1;
+}
+.container 
+{
+    width: 350px;
+    padding: 20px;
+    background-color: #ffffff6a;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 
+{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.bg
+{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    filter: blur(5px);
+    z-index: -1;
+}
+p{
+    margin-left: 15%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+form label 
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+     text-transform: capitalize;
+    text-decoration: none;
+}
+form 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #00000000;
+    border-radius: 10%;
+    input[type="submit"] 
+    {
+        padding: 10px 20px;
+       background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        &:hover 
+        {
+            background-color: #45a049;
+        }
+        input[type="text"],
+        input[type="password"] 
+        {
+            padding: 10px;
+           width: 100%;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            &:hover 
+            {
+                background-color: #45a049;
+            }
+        
+            &:focus 
+            {
+                border: 2px solid #4CAF50;
+            }
+        }
+        input[type="submit"] 
+        {
+            width: 100%;
+        }
+    }
+}
+.label
+{
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.btn 
+{
+    /* margin-left: 250px; */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    &:hover 
+    {
+        background-color: #45a049;
+    }
+    input[type="text"],
+    input[type="password"] 
+    {
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+    
+        &:focus 
+        {
+            border: 2px solid #4CAF50;
+        }
+    }
+} 
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* body {
+  background: #E3F2FD;
+} */ 
+
